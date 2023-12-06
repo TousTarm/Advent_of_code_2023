@@ -1,4 +1,4 @@
-with open('input1.txt',newline="\n") as file:
+with open('1/input.txt',newline="\n") as file:
     line = file.readlines()
 
 result = []
