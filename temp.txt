@@ -1,0 +1,21 @@
+..35..633.
+......#...
+617*......
+.....+.58.
+..592.....
+......755.
+...$.*....
+.664.598..
+
+if(line[charnum].isdigit() == False) and (line[charnum-1].isdigit() == True):
+    for a in range(wordlen+2):
+        if(charnum <= 0 and line[charnum-1-a].isdigit() == False and line[charnum-1-a] != "."):
+            flag = True
+    for a in range(wordlen+2):
+        if(line[charnum+1-a].isdigit() == False and line[charnum-1 - a] != "."):
+            flag = True
+    if(line[charnum].isdigit() == False and line[charnum-1] != "."):
+        flag = True
+    if(line[charnum - wordlen].isdigit() == False and line[charnum-1] != "."):
+        flag = True
+if flag == True:
