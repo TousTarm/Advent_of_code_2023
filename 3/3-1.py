@@ -5,7 +5,7 @@ total = 0
 for index,line in enumerate(file):
     charnum=0
     while(charnum<len(line)):
-        ftop = False
+        ftop = False 
         fbottom = False
         fright = False
         fleft = False
